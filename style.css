@@ -1,16 +1,42 @@
 * {
-margin: 0px;
-padding: 0px;
-border: 10px;
-box-sizing: border-box;
+  margin: 0px;
+  padding: 5px;
+  border: 10px;
+  box-sizing: border-box;
+}
 
-}
 body {
-    background-color: aquamarine;
+  background-color: aquamarine;
 }
+
 img {
-    width: 50%;
-    border: 5px solid black;
-    border-radius: 40%;
-    
+  width: 50%;
+  border: 5px solid black;
+  border-radius: 40%;
+  display: block;
+  margin: auto;
+  padding: 0%;
+}
+
+h1,
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+a {
+  font-size: 1.2em;
+}
+
+li {
+  color: indigo;
+  padding: 1px;
+  margin-left: 35px;
+}
+
+@media screen and (min-width: 500px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
 }
